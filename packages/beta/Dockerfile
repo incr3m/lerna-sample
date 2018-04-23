@@ -2,7 +2,7 @@ FROM node:alpine
 
 RUN npm i yarn -g
 
-WORKDIR /app
+WORKDIR /app/packages/beta
 
 COPY . /app
-RUN ls node_modules
+RUN ls
